@@ -1,2 +1,35 @@
 <%= form_for @user do |f| %>
+
+  <div class="user_profile">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+
+    <!-- occupational history -->
+    <!-- educational opportunity fields -->
+  </div>
+
+  <div class="user_family_profile">
+    <%= f.label :family_member_count %>
+    <%= f.text_field :family_member_count %>
+
+    <%= f.label :nationality %>
+    <%= f.text_field :nationality %>
+
+    <%= f.label :nationality %>
+    <%= f.text_field :nationality %>
+
+    <!-- rename/redesign this question appropriately -->
+    <%= f.label :able_to_fly %>
+    <%= f.text_field :able_to_fly %>
+
+    <!-- other occupational histories -->
+    <!-- educational opportunity fields -->
+
+  </div>
+
 <% end %>
+
+<!-- Look at countries for ideas of the rest of fields to populate -->
